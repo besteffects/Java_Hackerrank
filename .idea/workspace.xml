@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7aac6a81-4f57-46b2-8506-fcc94fff9592" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OutputFormatting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaLoopsOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,11 +36,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OutputFormatting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="52" />
+            <state relative-caret-position="255">
+              <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/JavaLoopsOne.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,11 +75,12 @@
         <option value="$PROJECT_DIR$/src/StdinStdOut.java" />
         <option value="$PROJECT_DIR$/src/StdinStdOutTwo.java" />
         <option value="$PROJECT_DIR$/src/OutputFormatting.java" />
+        <option value="$PROJECT_DIR$/src/JavaLoopsOne.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1198" />
+    <option name="x" value="958" />
     <option name="y" value="53" />
     <option name="width" value="969" />
     <option name="height" value="960" />
@@ -116,7 +129,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.JavaLoopsOne">
+    <configuration name="JavaLoopsOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaLoopsOne" />
+      <module name="Java_hackerrank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OutputFormatting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OutputFormatting" />
       <module name="Java_hackerrank" />
@@ -126,6 +146,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaLoopsOne" />
         <item itemvalue="Application.OutputFormatting" />
       </list>
     </recent_temporary>
@@ -152,7 +173,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.04691689" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.027479893" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -192,8 +213,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/OutputFormatting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="52" />
+        <state relative-caret-position="255">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaLoopsOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
