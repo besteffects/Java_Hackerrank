@@ -7,7 +7,7 @@ import java.util.concurrent.*;
 import java.util.regex.*;
 
 public class JavaLoopsOne {
-
+//iven an integer, N, print its first 10 multiples
 
     private static final Scanner scanner = new Scanner(System.in);
 
