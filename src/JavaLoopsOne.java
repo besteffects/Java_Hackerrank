@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class JavaLoopsOne {
-//iven an integer, N, print its first 10 multiples
+//Given an integer, N, print its first 10 multiples
 
     private static final Scanner scanner = new Scanner(System.in);
 
