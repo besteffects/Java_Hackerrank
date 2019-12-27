@@ -23,29 +23,29 @@ import java.util.Scanner;
 public class ArrayListTask {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
-        ArrayList<ArrayList<Integer>> a = new ArrayList<ArrayList<Integer>>(n);
+        int n = in.nextInt(); //input the number of lines
+        ArrayList<ArrayList<Integer>> a = new ArrayList<ArrayList<Integer>>(n); //2d arraylist
         for (int j = 0; j < n; j++) {
-            int d = in.nextInt();
-            ArrayList<Integer> al = new ArrayList<Integer>(d);
+            int d = in.nextInt(); //number of integers in each line (length of line)
+            ArrayList<Integer> al = new ArrayList<Integer>(d); // inner array
             for (int i = 0; i < d; i++) {
-                int x = in.nextInt();
-                al.add(x);
+                int numbers = in.nextInt(); // input integers to n number of lines
+                al.add(numbers);
             }
             a.add(al);
         }
-        int k = in.nextInt();
-        while (k > 0) {
-            int o = in.nextInt();
-            int p = in.nextInt();
-            int g = o - 1;
-            int h = p - 1;
+        int q = in.nextInt(); // number of queries
+        while (q > 0) {
+            int x = in.nextInt(); //x-th line
+            int y = in.nextInt(); //y-th position
+            int g = x - 1;
+            int h = y - 1;
             if (g < a.size() && h < a.get(g).size()) {
-                System.out.println(a.get(g).get(h));
+                System.out.println(a.get(g).get(h)); // print number by locating it in 2D Array
             } else {
                 System.out.println("ERROR!");
             }
-            k--;
+            q--;
         }
 
     }
