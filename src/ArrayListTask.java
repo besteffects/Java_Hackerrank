@@ -27,12 +27,12 @@ public class ArrayListTask {
         ArrayList<ArrayList<Integer>> a = new ArrayList<ArrayList<Integer>>(n); //2d arraylist
         for (int j = 0; j < n; j++) {
             int d = in.nextInt(); //number of integers in each line (length of line)
-            ArrayList<Integer> al = new ArrayList<Integer>(d); // inner array
+            ArrayList<Integer> al = new ArrayList<Integer>(d); // inner array with d numbers
             for (int i = 0; i < d; i++) {
                 int numbers = in.nextInt(); // input integers to n number of lines
                 al.add(numbers);
             }
-            a.add(al);
+            a.add(al); // add "al" inners arrays to "a" array
         }
         int q = in.nextInt(); // number of queries
         while (q > 0) {
