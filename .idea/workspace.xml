@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7aac6a81-4f57-46b2-8506-fcc94fff9592" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ArrayListTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayListTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayListTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lists/ArrayListTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedListTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lists/LinkedListTask.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,12 +61,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArrayListTask.java">
+        <entry file="file://$PROJECT_DIR$/src/Lists/ArrayListTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
+            <state relative-caret-position="274">
+              <caret line="26" column="77" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
               <folding>
-                <element signature="e#0#210#0" expanded="true" />
                 <element signature="imports" expanded="true" />
                 <element signature="e#1314#1334#0" expanded="true" />
                 <element signature="e#1433#1442#0" expanded="true" />
@@ -74,19 +75,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LinkedListTask.java">
+        <entry file="file://$PROJECT_DIR$/src/Lists/LinkedListTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GetTheSmallestAndLargestSubstring.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="596">
+              <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1304#1313#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,6 +151,8 @@
         <option value="$PROJECT_DIR$/src/ArraylistTask.java" />
         <option value="$PROJECT_DIR$/src/ArrayListTask.java" />
         <option value="$PROJECT_DIR$/src/LinkedListTask.java" />
+        <option value="$PROJECT_DIR$/src/Lists/ArrayListTask.java" />
+        <option value="$PROJECT_DIR$/src/Lists/LinkedListTask.java" />
       </list>
     </option>
   </component>
@@ -180,6 +178,12 @@
               <item name="Java_Hackerrank" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java_Hackerrank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Hackerrank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_Hackerrank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Lists" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -210,7 +214,7 @@
   </component>
   <component name="RunManager" selected="Application.ArrayListTask">
     <configuration name="ArrayListTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayListTask" />
+      <option name="MAIN_CLASS_NAME" value="Lists.ArrayListTask" />
       <module name="Java_hackerrank" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -271,7 +275,7 @@
     <frame x="0" y="23" width="1440" height="811" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49859944" visible="true" weight="0.09728183" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49859944" visible="true" weight="0.18454936" />
       <window_info id="Structure" order="1" sideWeight="0.5014006" side_tool="true" weight="0.20028612" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -432,12 +436,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArrayListTask.java">
+    <entry file="file://$PROJECT_DIR$/src/Lists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lists/ArrayListTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="26" column="77" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
           <folding>
-            <element signature="e#0#210#0" expanded="true" />
             <element signature="imports" expanded="true" />
             <element signature="e#1314#1334#0" expanded="true" />
             <element signature="e#1433#1442#0" expanded="true" />
@@ -445,10 +455,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedListTask.java">
+    <entry file="file://$PROJECT_DIR$/src/Lists/LinkedListTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="596">
+          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1304#1313#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
