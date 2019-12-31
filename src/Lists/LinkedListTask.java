@@ -22,7 +22,6 @@ y must be inserted into L at index x.
 If the first line of a query contains the String Delete, then the second line contains index x, whose element must be deleted from L.
 
 Output Format
-
 Print the updated list L as a single line of space-separated integers.
 
 Sample Input:
@@ -33,7 +32,6 @@ Insert
 5 23
 Delete
 0
-
 Sample Output
 0 1 78 12 23
  */
@@ -47,12 +45,30 @@ public class LinkedListTask {
         // Create and fill Linked List of Integers
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt(); //Initial number of elements
-        LinkedList<Integer> ll = new LinkedList<Integer>();
+        LinkedList<Integer> L = new LinkedList<Integer>();
         for (int i = 0; i < n; i++) {
             int value = scanner.nextInt();
-            ll.add(value);
+            L.add(value);
         }
 
-        
+        // Perform queries on Linked List
+        int Q = scanner.nextInt();
+        for (int i = 0; i < Q; i++) {
+            String query = scanner.next();
+            if (query.equals("Insert")) {
+                int x = scanner.nextInt();
+                int y = scanner.nextInt();
+                L.add(x, y);
+            } else if (query.contains("Delete")) {
+                int x = scanner.nextInt();
+                L.remove(x);
+            }
+
+        }
+
+        //Print the list L
+        for (int item : L) {
+            System.out.print(item + " ");
+        }
     }
 }
