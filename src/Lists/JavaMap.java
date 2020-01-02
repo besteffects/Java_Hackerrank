@@ -36,5 +36,32 @@ Not found
 harry=12299933
  */
 
+import java.util.HashMap;
+import java.util.Scanner;
+
 public class JavaMap {
+    //Complete this code or write your own from scratch
+    public static void main(String[] argh) {
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt(); //Number of entries
+        in.nextLine();
+        HashMap<String, Integer> hm = new HashMap<>();
+        for (int i = 0; i < n; i++) {
+            String name = in.nextLine(); //Input persons name
+            int phone = in.nextInt(); //Input persons phone number
+            in.nextLine();
+            hm.put(name, phone);
+        }
+        while (in.hasNext()) {
+            String s = in.nextLine(); //input persons name in query
+            if (!hm.containsKey(s)) {
+                System.out.println("Not found");
+            } else {
+
+                System.out.println(s + "=" + hm.get(s));
+            }
+
+        }
+    }
 }
+
