@@ -57,7 +57,6 @@ public class JavaMap {
             if (!hm.containsKey(s)) {
                 System.out.println("Not found");
             } else {
-
                 System.out.println(s + "=" + hm.get(s));
             }
 
