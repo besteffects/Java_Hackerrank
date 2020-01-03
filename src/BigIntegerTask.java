@@ -1,3 +1,6 @@
+import java.math.BigInteger;
+import java.util.Scanner;
+
 /*
 In this problem, you have to add and multiply huge numbers! These numbers are so big that you can't contain them in any
 ordinary data types like a long integer.
@@ -21,5 +24,15 @@ Sample Output
 24680
 
  */
-public class BigIntegerTask {
+class BigIntegerTask {
+    private static final Scanner scanner = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        String n1 = scanner.nextLine(); //here can be used scanner.nextBigInteger()
+        String n2 = scanner.nextLine();
+        BigInteger b1 = new BigInteger(n1);
+        BigInteger b2 = new BigInteger(n2);
+        System.out.println(b1.add(b2));
+        System.out.println(b1.multiply(b2));
+    }
 }
