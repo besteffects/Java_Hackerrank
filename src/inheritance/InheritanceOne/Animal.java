@@ -1,10 +1,4 @@
-package inheritanceOne;
-
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+package inheritance.InheritanceOne;
 
 class Animal{
     void walk()
