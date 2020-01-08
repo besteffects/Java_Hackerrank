@@ -1,4 +1,4 @@
-package Lists;
+package dataStructures;
 /*
 In computer science, a set is an abstract data type that can store certain values, without any particular order, and no repeated values
 (Wikipedia).{1,2,3} is an example of a set, but {1,2,2} is not a set. Today you will learn how to use sets in java by solving this problem.
@@ -33,19 +33,13 @@ Sample Output
 3
 3
 Explanation
-
 After taking the first input, you have only one pair: (john,tom)
 After taking the second input, you have two pairs: (john, tom) and (john, mary)
 After taking the third input, you still have two unique pairs.
 After taking the fourth input, you have three unique pairs: (john,tom), (john, mary) and (mary, anna)
 After taking the fifth input, you still have three unique pairs.
-
  */
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class HashSetTask {
 
@@ -61,6 +55,12 @@ public class HashSetTask {
         }
 
 //Write your code here
+        HashSet<String> pair = new HashSet<String>(t);
 
+        for(int i = 0; i < t; i++)
+        {
+            pair.add("(" + pair_left[i] + ", " + pair_right[i] + ")" );
+            System.out.println(pair.size());
+        }
     }
 }
